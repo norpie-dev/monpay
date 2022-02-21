@@ -1,5 +1,5 @@
-   def main():
-       print("main func")
+def main():
+    print("main func")
 
-   if __name__ == "__main__":
-       main()
+if __name__ == "__main__":
+    main()
