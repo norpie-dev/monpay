@@ -5,6 +5,6 @@ test:
 	py.test tests
 
 clean:
-	rm $(find monpay -name "*__pycache__*") -rf
+	find monpay -type d -name "__pycache__" -exec rm -rf {} \;
 
 .PHONY: init
